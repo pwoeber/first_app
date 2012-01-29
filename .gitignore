@@ -5,6 +5,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
+# Do not ignore Gemfile.lock because it is needed for heroku.
+
 # Ignore bundler config
 /.bundle
 
@@ -46,7 +48,6 @@ coverage/*
 db/*.sqlite3
 *.tmproj
 *.sw?
-*.lock
 *.out
 
 #rails ignore
